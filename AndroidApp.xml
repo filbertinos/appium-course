@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!--<suite name="AppiumTest" verbose="1">-->
+    <!--<test name="Android">-->
+        <!--<classes>-->
+            <!--<class name="Android.TestApp" />-->
+        <!--</classes>-->
+    <!--</test>-->
+<!--</suite>-->
+
+<suite name="AndroidApp" verbose="1">
+    <test name="AndroidAppTests">
+        <!--<parameter name="browser" value="chrome" />-->
+        <classes>
+            <class name="Android.TestApp" />
+        </classes>
+    </test>
+</suite>
